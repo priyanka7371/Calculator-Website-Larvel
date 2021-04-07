@@ -16,3 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/feetcalculator/feetcalculator.blade.php', function () {
+    return view('/feetcalculator/feetcalculator');
+});
+
+Route::get('/speedcalculator/speedcalculator.blade.php', function () {
+    return view('/speedcalculator/speedcalculator');
+});
+
+Route::get('/tempraturecalculator/tempraturecalculator.blade.php', function () {
+    return view('/tempraturecalculator/tempraturecalculator');
+});
+
+Route::get('/weightcalculator/weightcalculator.blade.php', function () {
+    return view('/weightcalculator/weightcalculator');
+});
